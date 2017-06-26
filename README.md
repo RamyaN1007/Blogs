@@ -1,0 +1,2 @@
+# Blogs
+To create blogs
