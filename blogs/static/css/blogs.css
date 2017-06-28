@@ -1,0 +1,25 @@
+body {
+	margin: 0 auto;
+}
+
+h2 {
+	color: #ff9400;
+}
+
+.content {
+	margin-left: 40px;
+}
+
+.date {
+	color: #828282;
+}
+
+.page-title {
+	/*background-color: #ff9400*/;
+	margin-top: 0;
+	padding: 20px 20px 20px 40px;
+}
+
+.post {
+	margin-bottom: 70px;
+}
