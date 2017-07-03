@@ -6,6 +6,14 @@ h2 {
 	color: #ff9400;
 }
 
+.article a {
+	text-decoration: none;
+}
+
+.article a:hover {
+	color: #ff9400;
+}
+
 .content {
 	margin-left: 40px;
 }
@@ -15,7 +23,7 @@ h2 {
 	margin-top: 27px;
 }
 
-.page-title {
+.page-title h1 {
 	/*background-color: #ff9400*/;
 	margin-top: 0;
 	padding: 20px 20px 20px 40px;
