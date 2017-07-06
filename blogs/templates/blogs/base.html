@@ -9,34 +9,37 @@
 	</head>
 
 	<body>
-		<div class="container col-md-offset-3">				
-			<div class="page-title">
-				{% block home-page %}
-				{% endblock %}
-				{% block page-title %}
-				{% endblock %}
-				{% block add-blog %}
-				{% endblock %}
-			</div>
-
+		<div class="container-fluid" style="text-align: center; padding: 0px; z-index: 10;">
 			<div>
 				<div class="row">
-					<div class="col-md-7 col-sm-12 col-md-offset-1">
-						{% block edit %}
+					<div class="page-title col-md-12 col-sm-10">
+						{% block page-title %}
 						{% endblock %}
-						<br>
+					</div>
+					<div class="iconic-menu col-md-12 col-sm-12">
+						{% block iconic-pages %}
+						{% endblock %}
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="content container-fluid">
-				<div class="row">
-					<div class="col-md-7 col-sm-12">
-					{% block content %}
-					{% endblock %}
-					</div>
+		{% block edit %}
+		{% endblock %}
+
+		<div class="container-fluid content-margin-top">
+			<div class="row" style="margin-left: 32%">
+				<div class="col-md-8 col-sm-12">
+				{% block content %}
+				{% endblock %}
 				</div>
 			</div>
+		</div>
+
+		<div>
+			<footer>
+				<p>All contents are copyright protected &copy;</p>
+			</footer>
 		</div>
 
 		<script type="text/javascript" src="{% static 'js/jquery-3.2.1.min.js' %}"></script>

@@ -2,22 +2,26 @@
 
 {% load static %}
 
-{% block home-page %}
-	<a href="{% url 'post_list' %}" class="icons home">
+{% block page-title %}
+	<h1>| To Edit a Blog |</h1>
+{% endblock %}
+
+{% block iconic-pages %}
+	<a href="{% url 'post_list' %}" class="icons" title="To go back to home page">
 		<span class="glyphicon glyphicon-home"></span>
 	</a>
 {% endblock %}
 
-{% block page-title %}
-	<h1>| To Edit a Blog</h1>
-{% endblock %}
-
 {% block edit %}
-	<h4>To modify or add the content to the selected blog:</h4>
+	<div class="container" style="margin-top: 7%; margin-bottom: -5%">
+		<div class="col-md-7 col-sm-12 col-md-offset-3">
+			<h4>To modify or add the content to the selected blog:</h4><br>
+		</div>
+	</div>
 {% endblock %}
 
 {% block content %}
-	<form method="POST" class="">
+	<form method="POST" class="infoblogs-form edit-form-mt">
 		{% csrf_token %}
 		{{ form.as_p }}
 		<button type="submit" class="btn btn-default">Save</button>

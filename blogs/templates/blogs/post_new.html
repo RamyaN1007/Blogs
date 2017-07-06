@@ -2,20 +2,23 @@
 
 {% load static %}
 
-{% block home-page %}
-	<a href="{% url 'post_list' %}" class="icons home">
+{% block page-title %}
+	<h1>| To add a new Blog |</h1>
+{% endblock %}
+
+{% block iconic-pages %}
+	<a href="{% url 'post_list' %}" class="icons" title="To go back to home page">
 		<span class="glyphicon glyphicon-home"></span>
 	</a>
 {% endblock %}
 
-{% block page-title %}
-	<h1>| To add a new Blog</h1>
-{% endblock %}
-
 {% block content %}
-	<form method="POST" class="">
-		{% csrf_token %}
-		{{ form.as_p }}
-		<button type="submit" class="btn btn-default">Save</button>
-	</form>
+	<div class="form-new-blog">
+		<h4>Fill the form below to write a new blog:</h4>
+		<form method="POST" class="infoblogs-form new-form-mt">
+			{% csrf_token %}
+			{{ form.as_p }}
+			<button type="submit" class="btn btn-default">Save</button>
+		</form>
+	</div>
 {% endblock %}

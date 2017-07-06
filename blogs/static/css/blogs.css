@@ -7,6 +7,10 @@ h2 {
 	margin: 0px;
 }
 
+h4 {
+	margin-top: 80px;
+}
+
 button[type='button'] {
 	width: 310px;
 	text-align: left;
@@ -14,33 +18,69 @@ button[type='button'] {
 	margin-bottom: 10px;
 }
 
-.add-blog {
-	margin-top: -5%; /* -19% for small screens */
-	margin-right: 60%;
+.blogs-btns {
+	color: #42b5d8;
+}
+
+.content-margin-top {
+	margin-top: 8%;
+}
+
+.detail-blog-mt {
+	margin-top: 11%;
+}
+
+.edit-form-mt {
+	margin-top: -5%;
 }
 
 .icons {
 	font-size: 20px;
 	color: #ff9400;
-	float: right;
 }
 
-.edit {
-	float: left;
-	margin-top: 1%;
-	margin-right: 2%;
+.form-new-blog {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 16%;
 }
 
-.home {
-	float: left;
-	margin-top: 3%;
-	margin-left: 4%;
-	margin-right: 1%;	
+footer {
+	font-size: small;
+	padding: 16px;
+	border-top: 1px solid #42b5d8;
+	box-shadow: 0px 0px 7px #ccc;
+	text-align: center;
 }
 
 .icons:hover {
 	text-shadow: 1px 2px #828282;
 	color: #ff9400;
+}
+
+.iconic-menu {
+	margin-top: 6%; 
+	position: fixed; 
+	z-index: 10; 
+	background: #ffffff; 
+	border-bottom: 1px solid #42b5d8; 
+	box-shadow: 0px 1px 2px #ccc; 
+	/*display: inline-table; */
+	margin-left: 15px; 
+	padding: 16px;
+}
+
+.iconic-menu span {
+	margin-right: 10px;
+	padding: 10px;
+	border: 1px solid #ff9400;
+	box-shadow: 0px 1px 2px #ccc;
+}
+
+.infoblogs-form input,
+.infoblogs-form textarea,
+.infoblogs-form button {
+	width: 320px;
 }
 
 .article a {
@@ -51,31 +91,50 @@ button[type='button'] {
 	color: #ff9400;
 }
 
-.content {
-	margin-left: 40px;
-}
-
 .date {
 	color: #828282;
 	margin-top: 27px;
 }
 
+.page-title {
+	background: url(../imgs/title-pattern.png) repeat #ff9400;
+	position: fixed;
+	z-index: 10;
+	border-bottom: 1px solid #000;
+	margin-left: 15px;
+	box-shadow: 0px 1px 2px #ccc;
+}
+
 .page-title h1 {
-	/*background-color: #ff9400*/;
+	color: #ffffff;
 	margin-top: 0;
 	padding: 20px 20px 20px 40px;
 	text-transform: capitalize;
 	font-family: "freight-text-pro";
 	font-style: italic;
-	text-shadow: 1px 2px #828282;
+	text-shadow: 1px 2px #828282; 
 }
 
 .post {
-	margin-bottom: 70px;
+	margin-bottom: 50px;
+}
+
+.text {
+	height: 220px;
+	overflow: hidden;
 }
 
 hr {
 	margin: 20px 0px;
 	border: 0;
 	border-top: 1px dashed #828282;
+}
+
+label {
+	display: inherit;
+}
+
+.new-form-mt,
+.home-page-mt {
+	margin-top: 40px;
 }
