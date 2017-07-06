@@ -124,6 +124,11 @@ footer {
 	overflow: hidden;
 }
 
+.title-icons {
+	text-align: center; 
+	padding: 0px; 
+}
+
 hr {
 	margin: 20px 0px;
 	border: 0;
