@@ -1,6 +1,9 @@
 {% load static %}
 <html>
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<meta name="description" content="Informative Blogs">
 		<title>Blogs Web App</title>
 		<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
 		<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-theme.min.css' %}">
@@ -28,8 +31,8 @@
 		{% endblock %}
 
 		<div class="container-fluid content-margin-top">
-			<div class="row" style="margin-left: 32%">
-				<div class="col-md-8 col-sm-12">
+			<div class="row">
+				<div class="col-md-9 col-sm-12">
 				{% block content %}
 				{% endblock %}
 				</div>

@@ -18,12 +18,12 @@
 {% endblock %}
 
 {% block content %}
-	<div class="content-margin-top">
+	<div class="content-margin-top col-md-offset-5">
 		<h4>Click on below <span class="blogs-btns">ARTICLE</span> buttons for the introductory short blogs! and Click <strong>Read more</strong> for the further details on the same</h4>
 	</div>
 	{% for post in posts %}
 		<div class="post home-page-mt">
-			<div class="row">
+			<div class="row col-md-offset-5">
 				<div class="col-md-6">
 					<button type="button" data-toggle="collapse" data-target=".text" class="btn btn-info"><h2>{{ post.title }}</h2></button>
 					<span class="article"><a href="{% url 'post_detail' pk=post.pk %}">Read more</a></span>
@@ -31,8 +31,8 @@
 				<div class="date col-md-6">
 					<p><strong>Created on: {{ post.created_date }}</strong></p>
 				</div>
+				<div class="text collapse col-md-12"><p><hr>{{ post.text|linebreaksbr }}<hr></p></div>
 			</div>
-			<div class="text collapse"><p><hr>{{ post.text|linebreaksbr }}<hr></p></div>
 		</div>
 	{% endfor %}
 {% endblock %}
