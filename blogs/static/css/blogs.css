@@ -145,7 +145,7 @@ label {
 
 @media screen and (max-width: 375px) {
 	.iconic-menu {
-		margin-top: 9%; 
+		margin-top: 34%; 
 		position: fixed; 
 		z-index: 1; 
 		background: #ffffff; 
@@ -153,6 +153,7 @@ label {
 		box-shadow: 0px 1px 2px #ccc;
 		margin-left: 15px;
 		padding: 16px 16px;
+		width: 100%;
 	}
 
 	.page-title h1 {
@@ -164,12 +165,17 @@ label {
 		font-style: italic;
 		text-shadow: 1px 2px #828282;
 		text-align: left;
+		width: 100%;
+	}
+
+	.content-margin-top {
+		margin-top: 31%;
 	}
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	.iconic-menu {
-		margin-top: 9%; 
+		margin-top: 11%; 
 		position: fixed; 
 		z-index: 1; 
 		background: #ffffff; 
