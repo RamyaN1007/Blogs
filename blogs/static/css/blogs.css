@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
 	margin: 0 auto;
 }
@@ -59,13 +58,11 @@ footer {
 }
 
 .iconic-menu {
-	/*margin-top: 6%; */
 	position: fixed; 
 	z-index: 1; 
 	background: #ffffff; 
 	border-bottom: 1px solid #42b5d8; 
 	box-shadow: 0px 1px 2px #ccc; 
-	/*display: inline-table; */
 	margin-left: 15px;
 	padding: 16px 16px;
 }
@@ -163,7 +160,6 @@ label {
 
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
 	.iconic-menu {
-		margin-top: 16%; 
 		background: #ffffff; 
 		border-bottom: 1px solid #42b5d8; 
 		box-shadow: 0px 1px 2px #ccc;
@@ -187,20 +183,7 @@ label {
 	}
 }
 
-/*@media screen and (max-device-width: 667px) and (max-device-width: 375px) {
-	.iconic-menu {
-		margin-top: 9%;
-	}
-
-	.content-margin-top {
-		margin-top: 12%;
-	}
-}*/
-
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-	.iconic-menu {
-		margin-top: 4.5%;
-	}
 
 	.content-margin-top {
 		margin-top: 9%;
@@ -221,212 +204,4 @@ label {
 		text-shadow: 1px 2px #828282;
 		text-align: left;
 	}
-=======
-body {
-	margin: 0 auto;
-}
-
-h2 {
-	/*color: #ff9400;*/
-	margin: 0px;
-}
-
-h4 {
-	margin-top: 80px;
-}
-
-button[type='button'] {
-	width: 310px;
-	text-align: left;
-	display: inherit;
-	margin-bottom: 10px;
-}
-
-.blogs-btns {
-	color: #42b5d8;
-}
-
-.content-margin-top {
-	margin-top: 8%;
-}
-
-.detail-blog-mt {
-	margin-top: 11%;
-}
-
-.edit-form-mt {
-	margin-top: -5%;
-}
-
-.icons {
-	font-size: 20px;
-	color: #ff9400;
-}
-
-.form-new-blog {
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-
-footer {
-	font-size: smaller;
-	padding: 16px;
-	border-top: 1px solid #42b5d8;
-	box-shadow: 0px 0px 7px #ccc;
-	text-align: center;
-}
-
-.icons:hover {
-	text-shadow: 1px 2px #828282;
-	color: #ff9400;
-}
-
-.iconic-menu {
-	margin-top: 6%; 
-	position: fixed; 
-	z-index: 1; 
-	background: #ffffff; 
-	border-bottom: 1px solid #42b5d8; 
-	box-shadow: 0px 1px 2px #ccc; 
-	/*display: inline-table; */
-	margin-left: 15px;
-	padding: 16px 16px;
-}
-
-.iconic-menu span {
-	margin-right: 10px;
-	padding: 10px;
-	border: 1px solid #ff9400;
-	box-shadow: 0px 1px 2px #ccc;
-}
-
-.infoblogs-form input,
-.infoblogs-form textarea,
-.infoblogs-form button {
-	width: 320px;
-}
-
-.article a {
-	text-decoration: none;
-}
-
-.article a:hover {
-	color: #ff9400;
-}
-
-.date {
-	color: #828282;
-	margin-top: 27px;
-}
-
-.page-title {
-	background: url(../imgs/title-pattern.png) repeat #ff9400;
-	position: fixed;
-	z-index: 10;
-	border-bottom: 1px solid #000;
-	margin-left: 15px;
-	box-shadow: 0px 1px 2px #ccc;
-}
-
-.page-title h1 {
-	color: #ffffff;
-	margin-top: 0;
-	padding: 20px 20px 20px 40px;
-	text-transform: capitalize;
-	font-family: "freight-text-pro";
-	font-style: italic;
-	text-shadow: 1px 2px #828282; 
-}
-
-.post {
-	margin-bottom: 50px;
-}
-
-.text {
-	height: 220px;
-	overflow: hidden;
-}
-
-.title-icons {
-	text-align: center; 
-	padding: 0px; 
-}
-
-hr {
-	margin: 20px 0px;
-	border: 0;
-	border-top: 1px dashed #828282;
-}
-
-label {
-	display: inherit;
-}
-
-.new-form-mt,
-.home-page-mt {
-	margin-top: 40px;
-}
-
-@media screen and (max-width: 375px) {
-	.iconic-menu {
-		margin-top: 34%; 
-		position: fixed; 
-		z-index: 1; 
-		background: #ffffff; 
-		border-bottom: 1px solid #42b5d8; 
-		box-shadow: 0px 1px 2px #ccc;
-		margin-left: 15px;
-		padding: 16px 16px;
-		width: 100%;
-	}
-
-	.page-title h1 {
-		color: #ffffff;
-		margin-top: 0;
-		padding: 20px 20px 20px 20px;
-		text-transform: capitalize;
-		font-family: "freight-text-pro";
-		font-style: italic;
-		text-shadow: 1px 2px #828282;
-		text-align: left;
-		width: 100%;
-	}
-
-	.content-margin-top {
-		margin-top: 31%;
-	}
-}
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-	.iconic-menu {
-		margin-top: 11%; 
-		position: fixed; 
-		z-index: 1; 
-		background: #ffffff; 
-		border-bottom: 1px solid #42b5d8; 
-		box-shadow: 0px 1px 2px #ccc;
-		margin-left: 15px;
-		padding: 16px 16px;
-	}
-
-	.content-margin-top {
-		margin-top: 11%;
-		margin-left: 20px;
-	}
-
-	.col-md-offset-5 {
-		margin-left: 0px;
-	}
-
-	.page-title h1 {
-		color: #ffffff;
-		margin-top: 0;
-		padding: 20px 20px 20px 20px;
-		text-transform: capitalize;
-		font-family: "freight-text-pro";
-		font-style: italic;
-		text-shadow: 1px 2px #828282;
-		text-align: left;
-	}
->>>>>>> b611fedf9e53db959afe3873e5d61149b99a7b98
 }
