@@ -123,6 +123,8 @@ footer {
 .text {
 	height: 220px;
 	overflow: hidden;
+	font-size: 16px;
+	font-family: tahoma, sans-serif;
 }
 
 .title-icons {
@@ -144,6 +146,24 @@ label {
 .home-page-mt {
 	margin-top: 40px;
 }
+
+/*.sign-in-unlock {
+	background-image: url("../imgs/png/glyphicons-204-lock.png");
+	background-repeat: no-repeat;
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sign-in-unlock:hover {
+	background-image: url("../imgs/png/glyphicons-205-unlock.png");
+	background-repeat: no-repeat;
+}*/
 
 @media screen and (max-width: 320px) {
 	.page-title h1 {
